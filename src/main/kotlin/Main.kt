@@ -8,9 +8,7 @@ fun main() {
     println(myName("Musyoka", "Muasya"));
 }
 /*
-* This is the second way of returning a function.
-* Instead of creating a return block, you can handle the summation directly after the return time
-* This is an example of expressive Kotlin programming
+* A function takes in two strings, first name and second name
 * */
 fun myName (firstName: String, secondName:String):String {
     return "My name is $firstName $secondName"
