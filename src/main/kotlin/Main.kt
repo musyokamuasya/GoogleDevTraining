@@ -1,15 +1,5 @@
-
-
 fun main() {
-    /*
-    * The main program where all the functions are called. This is the main entry into the code
-    * */
-    println("This program prints sum of 6 and 8")
-    println(myName("Hey", "Musyoka", "Muasya"));
-}
-/*
-* A function takes in two strings, first name and second name
-* */
-fun myName (salutations: String = "Mr", firstName: String, secondName:String):String {
-    return "My name is $salutations $firstName $secondName"
+    val a:Int = 1; //The data type is directly stated as integer
+    val b = 7; //The data type is inferred as integer
+    println(a+b)
 }
