@@ -1,5 +1,9 @@
+
 fun main() {
-    val a:Int = 1; //The data type is directly stated as integer
-    val b = 7; //The data type is inferred as integer
-    println(a+b)
+    val rectangle = Rectangle(5, 12.0)
+    println("The area is ${rectangle.area}")
+}
+
+class Rectangle(var height: Int, var length: Double){
+    var area = height * length
 }
